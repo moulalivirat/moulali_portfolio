@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moulali portfolio</title>
+    <link rel="stylesheet" href="portfolio1.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+</head>
+<body>
+    <header class="portfolio-header" >
+        <nav class="navbar">
+          <div class="logo">Moulali</div>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <!--home section starts--> 
+        <section class="home-section" id="home">
+          <div class="home-content">
+            <h1>Hello, I'm <span>Shaik Moulali</span></h1>
+            <h2>Front-end Developer</h2>
+            <p>With knowledge in web development and design, I offer the best projects resulting in quality work.</p>
+            <a href="#contact" class="btn-primary">Hire Me</a>
+          </div>
+          <div class="image1">
+            <div class="Circle">
+              <img src="moula1.jpg" class="logo1" alt="Shaik Moulali">
+            </div>
+          </div>
+        </div>
+      </header>
+         <!--home section ends--> 
+
+       <!--achievements section starts--> 
+      <section class="achievements-section" id="achievements">  
+        <div class="achieve">
+          <h2><span class="ment">Achievements</span></h2>
+        </div>
+        <div class="achievement-container">
+          <div class="achievement-item">
+            <img class="net" src="edunet.png.jpg" alt="edunet">
+              <h3>Edunet Certificate</h3>
+              <p>Received for outstanding contributions to the edunet certificate in 2024.For IBM skills build</p>
+          </div>
+          <div class="achievement-item">
+            <img class="force" src="salesforce1.png.jpg" alt="salesforce">
+              <h3>Salesforce</h3>
+              <p>Certified in Salesforce in 2024.Helps sales teams close deals faster with features like opportunity management, forecasting, and lead tracking.</p>
+          </div>
+          <div class="achievement-item">
+            <img class="iot" src="iot.png.jpeg" alt="iot">
+            <h3>Iot certificate</h3>
+            <p>Certified in Iot project in 2024.Satellite design using lora communication for wheather forecast</p>
+        </div>
+      </div>
+      </section>
+       <!--achievements section ends--> 
+
+       <!--Skills section start-->
+      <section class="skill-section" id="skills">
+      <div class="skill-1">
+        <h1 class="moula"><span class="fire">My Skills</span></h1>
+        <p>Here is my skills to represent my Expertise</p>
+      </div> 
+       <div class="container">
+        <div class="left-section">
+          <div class="skill">
+            <span>HTML 90%</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>CSS 80%</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Bootstrap 92%</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 92%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>JavaScript 50%</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 50%;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="right-section">
+          <div class="skill">
+            <span>Java 90%</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>MySQL 80%</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Spring Boot 70%</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 70%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+       <!--Skills section ends-->
+       <!--project section start-->
+      <section class="project section" id="projects"> 
+        <div class="projects-section">
+          <h2><span class="box">My Projects</span></h2>
+          <div class="project-cards">
+            <div class="card">
+              <h3>Portfolio Website</h3>
+              <p>A responsive portfolio website to showcase skills and projects. Built with HTML, CSS, and JavaScript.</p>
+              <button class="port"><a href="portfolio1.html">portfolio</a></button>
+            </div>
+            <div class="card">
+              <h3>Caluclator App</h3>
+              <p>An interactive Caluclator application for task management. Built using Java script.</p>
+              <button class="calci"><a href="javascript5.html">Caluclator App</a></button>
+            </div>
+            <div class="card">
+              <h3>E-commerce Backend</h3>
+              <p>A backend application for managing product catalogs and orders using Node.js and MongoDB.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!--project section ends-->
+      <!--contact section start-->
+      <section class="contact section" id="contact"> 
+        <div class="contact-container">
+          <h2>Contact Me</h2>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+          <p id="responseMessage"></p>
+        </div>
+      </section>
+      <!--contact section ends-->
+      <!--footer section starts-->
+            <footer class="footer">
+            <div class="footer-container">
+              <div class="social-icons">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/accounts/signup/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/?logout=1733836093435"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/home"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <div class="footerNav">
+              <ul>  
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Contact us</a></li>
+              </ul>  
+              </div>
+            </div>
+            <div class="footerbottom">
+              <p>copyright &copy;2024; Designed by <span class="designer">Moulali</span></p>
+            </div>
+          </footer>  
+          <!--footer section ends-->  
+    <script src="portfolio1.js"></script>
+</body>
+</html>
