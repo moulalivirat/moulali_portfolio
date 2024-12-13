@@ -33,3 +33,5 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
   } 
+
+  

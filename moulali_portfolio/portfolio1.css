@@ -81,7 +81,51 @@
     margin: 20px 0;
     line-height: 1.5;
   }
-  
+  @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .logo {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links li a {
+        font-size: 16px;
+    }
+
+    .home-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .home-content {
+        max-width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    .image1 {
+        max-width: 100%;
+        padding-top: 100px;
+    }
+
+    .logo1 {
+        width: 120px; 
+        height: 120px;
+    }
+}
   .btn-primary {
     display: inline-block;
     background: #39ffba;
@@ -230,6 +274,33 @@
 .right-section .progress {
   background: linear-gradient(to right, #ffaa00, #ff4500);
 }
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column; 
+      align-items: center;
+  }
+
+  .left-section, .right-section {
+      width: 100%; 
+  }
+
+  .skill-section h1.moula {
+      font-size: 28px; 
+  }
+
+  .skill-section p {
+      font-size: 16px; 
+  }
+
+  .skill span {
+      font-size: 16px; 
+  }
+
+  .progress-bar {
+      height: 6px;
+  }
+}
+
 
 /* project section */
 .projects-section {
@@ -279,7 +350,6 @@
   color: darkorchid;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .card {
     width: calc(50% - 20px);
@@ -389,6 +459,30 @@ button:hover {
 .social-icons a:hover i{
   color: white;
   transition: 0.2s;
+}
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column; 
+      align-items: center;
+  }
+
+  .social-icons a {
+      font-size: 20px; 
+      margin: 0 5px;
+  }
+
+  .footerNav ul {
+      flex-direction: column; 
+      gap: 10px;
+  }
+
+  .footerNav ul li a {
+      font-size: 14px; 
+  }
+
+  .footerbottom {
+      font-size: 12px; 
+  }
 }
 .footerNav{
   margin: 30px 0px;
